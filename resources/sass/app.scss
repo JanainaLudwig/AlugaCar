@@ -1,0 +1,53 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+@import "main";
+@import "search";
+@import "report";
+
+.card {
+    width: 100% !important;
+}
+.card-img-top {
+    height: 130px !important;
+    object-fit: cover;
+}
+
+html, body, #app {
+    min-height: 100vh;
+}
+
+#app {
+    position: relative;
+}
+
+.datepicker, .time-picker {
+    input {
+        border: 1px solid $primary;
+        border-radius: 200px;
+        padding: 3px 8px;
+        width: 150px;
+        color: #868686;
+        &:focus {
+            outline: none !important;
+            box-shadow: 0 0.1rem 0.25rem rgba(114, 114, 114, 0.58) !important;
+        }
+    }
+}
+
+.lnr {
+    font-size: 22px;
+}
+
+.old-location {
+    img {
+        filter: grayscale(100%);
+        opacity: 0.6;
+    }
+}
+.old-location:not(a)  {
+    color: #757575;
+}

@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);#main-site {
+  padding: 0 100px;
+  background-color: #1EAAC1;
+  height: 80%;
+}
+
+.btn-main {
+  background-color: #ffea31 !important;
+  color: #1EAAC1 !important;
+  border-color: #fde300 !important;
+  box-shadow: 0 0.5rem 1rem rgba(201, 203, 50, 0.58) !important;
+}
+
+.btn-main:hover {
+  background-color: #fde300 !important;
+}
+
+#main-logo {
+  text-align: center;
+  width: 50%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+#main-logo h1 {
+  letter-spacing: 1px;
+}
+
+#main-logo h1 span {
+  font-size: 42px;
+}
+
+#main-logo .text-spacing {
+  letter-spacing: 4px;
+}
+
+#find-car {
+  position: relative;
+  margin-top: -20%;
+  z-index: 500;
+}
+
+@media (min-width: 765px) {
+  #find-car {
+    margin-top: -15vh;
+  }
+}
+
+.navbar {
+  z-index: 100;
+}
+
+.sidebar {
+  position: fixed;
+  width: 300px;
+  min-height: 100vh;
+  top: 0;
+  padding-top: 10px !important;
+  background-color: #178395;
+  z-index: 50;
+}
+
+.search-content {
+  position: relative;
+  top: 0;
+  left: 300px;
+  width: calc(100% - 300px);
+}
+
+@media print {
+  .hide-in-print {
+    visibility: hidden;
+  }
+}
+
+.card {
+  width: 100% !important;
+}
+
+.card-img-top {
+  height: 130px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+html,
+body,
+#app {
+  min-height: 100vh;
+}
+
+#app {
+  position: relative;
+}
+
+.datepicker input,
+.time-picker input {
+  border: 1px solid #1EAAC1;
+  border-radius: 200px;
+  padding: 3px 8px;
+  width: 150px;
+  color: #868686;
+}
+
+.datepicker input:focus,
+.time-picker input:focus {
+  outline: none !important;
+  box-shadow: 0 0.1rem 0.25rem rgba(114, 114, 114, 0.58) !important;
+}
+
+.lnr {
+  font-size: 22px;
+}
+
+.old-location img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  opacity: 0.6;
+}
+
+.old-location:not(a) {
+  color: #757575;
+}
+
